@@ -1,0 +1,237 @@
+{
+  "version": 2,
+  "core_categories": [
+    "ai_engineering",
+    "ml_ai",
+    "software_engineering",
+    "solutions_engineering",
+    "support",
+    "data_science",
+    "data_engineering",
+    "data_analytics",
+    "devops",
+    "backend",
+    "fullstack",
+    "qa",
+    "customer_success",
+    "developer_relations"
+  ],
+  "supplementary_categories": [
+    "technical_writing",
+    "business_analysis",
+    "product",
+    "operations",
+    "science",
+    "sales",
+    "sre",
+    "security"
+  ],
+  "lanes": [
+    {
+      "id": "core_local",
+      "filters": {
+        "countries": [
+          "cn",
+          "hk",
+          "mo",
+          "sg",
+          "jp"
+        ],
+        "category": [
+          "ai_engineering",
+          "ml_ai",
+          "software_engineering",
+          "solutions_engineering",
+          "support",
+          "data_science",
+          "data_engineering",
+          "data_analytics",
+          "devops",
+          "backend",
+          "fullstack",
+          "qa",
+          "customer_success",
+          "developer_relations"
+        ]
+      }
+    },
+    {
+      "id": "supp_local",
+      "filters": {
+        "countries": [
+          "cn",
+          "hk",
+          "mo",
+          "sg",
+          "jp"
+        ],
+        "category": [
+          "technical_writing",
+          "business_analysis",
+          "product",
+          "operations",
+          "science",
+          "sales",
+          "sre",
+          "security"
+        ]
+      },
+      "query": "\"AI\" OR \"LLM\" OR \"Agent\" OR \"大模型\" OR \"智能体\""
+    },
+    {
+      "id": "uncategorized_local",
+      "filters": {
+        "countries": [
+          "cn",
+          "hk",
+          "mo",
+          "sg",
+          "jp"
+        ]
+      },
+      "query": "\"LLM\" OR \"Agent\" OR \"大模型\" OR \"智能体\" OR \"人工知能\""
+    },
+    {
+      "id": "remote_china",
+      "filters": {
+        "work_mode": [
+          "remote"
+        ],
+        "countries": [
+          "cn",
+          "global"
+        ],
+        "category": [
+          "ai_engineering",
+          "ml_ai",
+          "software_engineering",
+          "solutions_engineering",
+          "support",
+          "data_science",
+          "data_engineering",
+          "data_analytics",
+          "devops",
+          "backend",
+          "fullstack",
+          "qa",
+          "customer_success",
+          "developer_relations",
+          "technical_writing",
+          "business_analysis",
+          "product",
+          "operations",
+          "science",
+          "sales",
+          "sre",
+          "security"
+        ]
+      }
+    },
+    {
+      "id": "remote_worldwide",
+      "filters": {
+        "work_mode": [
+          "remote"
+        ],
+        "category": [
+          "ai_engineering",
+          "ml_ai",
+          "software_engineering",
+          "solutions_engineering",
+          "support",
+          "data_science",
+          "data_engineering",
+          "data_analytics",
+          "devops",
+          "backend",
+          "fullstack",
+          "qa",
+          "customer_success",
+          "developer_relations",
+          "technical_writing",
+          "business_analysis",
+          "product",
+          "operations",
+          "science",
+          "sales",
+          "sre",
+          "security"
+        ]
+      },
+      "query": "\"worldwide\" OR \"anywhere\" OR \"China\" OR \"全球\" OR \"中国\""
+    },
+    {
+      "id": "remote_apac_llm",
+      "filters": {
+        "work_mode": [
+          "remote"
+        ],
+        "category": [
+          "ai_engineering",
+          "ml_ai",
+          "software_engineering",
+          "solutions_engineering",
+          "support",
+          "data_science",
+          "data_engineering",
+          "data_analytics",
+          "devops",
+          "backend",
+          "fullstack",
+          "qa",
+          "customer_success",
+          "developer_relations",
+          "technical_writing",
+          "business_analysis",
+          "product",
+          "operations",
+          "science",
+          "sales",
+          "sre",
+          "security"
+        ]
+      },
+      "query": "\"APAC LLM\" OR \"Asia LLM\" OR \"global LLM\" OR \"APAC AI\" OR \"Asia AI\""
+    },
+    {
+      "id": "remote_apac_ml_data",
+      "filters": {
+        "work_mode": [
+          "remote"
+        ],
+        "category": [
+          "ai_engineering",
+          "ml_ai",
+          "software_engineering",
+          "solutions_engineering",
+          "support",
+          "data_science",
+          "data_engineering",
+          "data_analytics",
+          "devops",
+          "backend",
+          "fullstack",
+          "qa",
+          "customer_success",
+          "developer_relations",
+          "technical_writing",
+          "business_analysis",
+          "product",
+          "operations",
+          "science",
+          "sales",
+          "sre",
+          "security"
+        ]
+      },
+      "query": "\"global machine learning\" OR \"Asia machine learning\" OR \"APAC machine learning\" OR \"global data scientist\" OR \"Asia data scientist\""
+    }
+  ],
+  "notes": [
+    "主类别本地搜索不限制技能、工作方式或搬迁，保留未标注字段的岗位。",
+    "补充类别只保留AI/技术职责相关岗位。",
+    "原35项筛选为额外回归检查，不能替代主搜索。",
+    "职位名/正文检索用于补查类别缺失/错标，全球远程须核对中国资格。",
+    "发布日期和最低总经验在读取JD后筛选，无法使用API不存在的日期/年限参数。"
+  ]
+}

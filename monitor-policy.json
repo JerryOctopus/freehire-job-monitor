@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-10-26",
+  "frequency": "每天一次",
+  "timezone": "Asia/Shanghai",
+  "start_time": "09:00",
+  "target_completion_time": "09:45",
+  "standard": "search-plan-v2.json中的7路查询，读取全部分页并保存覆盖和筛选审计",
+  "publication_window_days": 14,
+  "experience_years_min_max": 5,
+  "new_run_directory": "runs/<日期-时间>/",
+  "hidden_statuses": [
+    "applied",
+    "dismissed"
+  ],
+  "show_only_active_in_main_list_and_notifications": true,
+  "preserve_decisions_database": true,
+  "afternoon_automation_enabled": false,
+  "resume_matching": "明确区分规则初核与逐条分析；待核实条件不宣称已满足",
+  "exclude_internships": true
+}
