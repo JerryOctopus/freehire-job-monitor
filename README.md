@@ -1,8 +1,10 @@
 # FreeHire Job Monitor
 
-面向 AI / Agent / LLM 岗位的本地求职看板：完整分页记录、规则筛选、重复职位合并、排除审计，以及持久化的“已投递 / 不合适”标记。
+基于 [FreeHire 岗位网站](https://freehire.me/)及其已授权连接构建的本地求职看板，面向 AI / Agent / LLM 岗位，提供完整分页记录、规则筛选、重复职位合并、排除审计，以及持久化的“已投递 / 不合适”标记。
 
-Python 3.9+，仅使用标准库。前端为原生 HTML/CSS/JavaScript，无需 npm 或数据库服务。项目独立于 FreeHire 官方产品。
+**数据来源与项目关系：**真实岗位数据来自 FreeHire，检索由用户已授权的 FreeHire MCP / 外部流程完成。本仓库提供接收检索结果后的本地整理、展示和状态管理功能，是独立的辅助项目，不是 FreeHire 官方项目，也不是 FreeHire 网站源码。感谢 FreeHire 提供岗位发现与检索服务。
+
+Python 3.9+，仅使用标准库。前端为原生 HTML/CSS/JavaScript，无需 npm 或数据库服务。
 
 ## 快速运行
 
